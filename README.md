@@ -1,5 +1,9 @@
 # Trajectories and Revolutions in Western Popular Melody
-Here is the outline for replicating the TAR analysis. For each step, there is a more detailed README in the relevant directory.
+
+This is the GitHub repository for the paper "Trajectories and Revolutions in Western Popular Melody" by Madeline Hamilton and Marcus Pearce. This repo includes the dataset used
+for analysis (see github.com/madelinehamilton/BiMMuDa for the full dataset) as well as the scripts necessary for replicating the analysis.
+
+Below is the outline for for replicating the TAR analysis. For each step, there is a more detailed README in the relevant directory.
 
 1. Go into /create_timeseries/ and run compute_tar_features_no_idyom.py, compute the IDyOM features, and run produce_full_tar_dataset.py.
 
