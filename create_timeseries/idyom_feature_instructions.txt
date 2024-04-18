@@ -1,0 +1,32 @@
+Instructions for computing the two IDyOM features, PIC and RIC
+
+When you're done, make sure to put the two output files under /output_data/features/ and rename them as "pic_from_idyom.dat" and "ric_from_idyom.dat"
+
+STARTING IDYOM
+
+- Open emacs
+- Type option+x slime
+- Type (start-idyom)
+- Load a dataset, if needed. Example command: (idyom-db:import-data :mid "/Users/madelinehamilton/bimmuda_new_processed/" "BiMMuDa Dec 2022 version" 49)
+
+
+
+COMPUTING PIC
+
+Example command:
+
+(idyom:idyom 49 '(cpitch) '((cpint cpintfref)) :models :stm :detail 2 :output-path "/Users/madelinehamilton/")
+
+Replace "22" with the index to which you loaded the dataset. The results will be under
+"/Users/madelinehamilton/"
+
+
+
+COMPUTING RIC
+
+Example command:
+
+(idyom:idyom 49 '(onset) '(ioi) :detail 2 :output-path "/Users/madelinehamilton/")
+
+
+'(onset) '(ioi-ratio)

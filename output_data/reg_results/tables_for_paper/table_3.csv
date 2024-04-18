@@ -1,0 +1,12 @@
+Era,Dependent,Independent,Estimate,p-value,R^2
+1,Onset_Density,MIS,-0.123,0.0181,0.302
+1,Onset_Density,RIC,-0.175,0.0337,0.252
+1,ISO,Onset_Density,-0.369,0.0262,0.273
+2,Onset_Density,PIC,-0.409,0.0174,0.263
+3,Tonal_S,Pitch_SD,1.181,0.0025,0.466
+3,Pitch_SD,Tonal_S,0.183,0.0083,0.361
+3,Onset_Density,ISO,0.298,0.0045,0.427
+3,Onset_Density,PIC,-0.664,0.0279,0.283
+3,Onset_Density,RIC,-0.576,0.0005,0.571
+3,ISO,RIC,-0.486,0.0131,0.296
+3,RIC,ISO,-0.298,0.0022,0.414

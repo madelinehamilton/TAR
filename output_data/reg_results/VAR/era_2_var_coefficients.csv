@@ -1,0 +1,17 @@
+Dependent,Predictor,Lag,Coefficient
+Tonal_S,Tonal_S,1,0.5096
+Tonal_S,PIC,1,-1.587
+Pitch_SD,Pitch_SD,1,0.6115
+MIS,Tonal_S,1,-0.3369
+MIS,ISO,1,0.6748
+Onset_Density,Tonal_S,1,0.1421
+Onset_Density,MIS,1,-0.2947
+Onset_Density,ISO,1,-0.4856
+TI_OD,TI_OD,1,1.202
+TI_OD,ISO,1,-0.3435
+TI_OD,PIC,1,0.4266
+ISO,TI_OD,1,0.5204
+ISO,ISO,1,0.5856
+RIC,MIS,1,0.5257
+RIC,TI_OD,1,-1.035
+RIC,PIC,1,-1.088

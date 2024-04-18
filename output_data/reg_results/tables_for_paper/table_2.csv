@@ -1,0 +1,9 @@
+Feature,Era 1 nRMSE,Era 1 Lag,Era 2 nRMSE,Era 2 Lag,Era 3 nRMSE,Era 3 Lag
+Tonal_S,0.2,5,0.14,4,0.19,4
+Pitch_SD,0.22,3,0.1,5,0.16,3
+MIS,0.14,3,0.18,4,0.13,1
+Onset_Density,0.17,5,0.2,4,0.15,4
+TI_OD,0.15,5,0.11,4,0.13,4
+ISO,0.19,5,0.23,5,0.21,1
+PIC,0.15,5,0.15,5,0.11,2
+RIC,0.16,5,0.22,4,0.2,1
